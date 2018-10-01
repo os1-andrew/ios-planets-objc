@@ -15,6 +15,8 @@
 		1036C4DB2162B952005F4BA2 /* AELPlanetsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1036C4DA2162B952005F4BA2 /* AELPlanetsCollectionViewController.m */; };
 		1036C4E02162BD4B005F4BA2 /* AELPlanetsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1036C4DF2162BD4B005F4BA2 /* AELPlanetsCollectionViewCell.m */; };
 		10E3523B2162BF3500E3FD69 /* AELSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E3523A2162BF3500E3FD69 /* AELSettingsViewController.m */; };
+		10E3523E2162C91000E3FD69 /* AELPlanet.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E3523D2162C91000E3FD69 /* AELPlanet.m */; };
+		10E352422162D34B00E3FD69 /* AELPlanetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E352412162D34B00E3FD69 /* AELPlanetController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		1036C4DF2162BD4B005F4BA2 /* AELPlanetsCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AELPlanetsCollectionViewCell.m; sourceTree = "<group>"; };
 		10E352392162BF3500E3FD69 /* AELSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AELSettingsViewController.h; sourceTree = "<group>"; };
 		10E3523A2162BF3500E3FD69 /* AELSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AELSettingsViewController.m; sourceTree = "<group>"; };
+		10E3523C2162C91000E3FD69 /* AELPlanet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AELPlanet.h; sourceTree = "<group>"; };
+		10E3523D2162C91000E3FD69 /* AELPlanet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AELPlanet.m; sourceTree = "<group>"; };
+		10E352402162D34B00E3FD69 /* AELPlanetController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AELPlanetController.h; sourceTree = "<group>"; };
+		10E352412162D34B00E3FD69 /* AELPlanetController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AELPlanetController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,8 @@
 				1036C4C32162B7D5005F4BA2 /* AppDelegate.h */,
 				1036C4C42162B7D5005F4BA2 /* AppDelegate.m */,
 				1036C4C92162B7D5005F4BA2 /* Main.storyboard */,
+				10E3523F2162C92500E3FD69 /* Model */,
+				10E352432162D35200E3FD69 /* Model Controller */,
 				1036C4DC2162BCD7005F4BA2 /* View and ViewControllers */,
 				1036C4DD2162BCE6005F4BA2 /* Resources */,
 			);
@@ -95,6 +103,24 @@
 				1036C4D22162B7D6005F4BA2 /* main.m */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		10E3523F2162C92500E3FD69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				10E3523C2162C91000E3FD69 /* AELPlanet.h */,
+				10E3523D2162C91000E3FD69 /* AELPlanet.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		10E352432162D35200E3FD69 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				10E352402162D34B00E3FD69 /* AELPlanetController.h */,
+				10E352412162D34B00E3FD69 /* AELPlanetController.m */,
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,9 +196,11 @@
 			files = (
 				10E3523B2162BF3500E3FD69 /* AELSettingsViewController.m in Sources */,
 				1036C4D32162B7D6005F4BA2 /* main.m in Sources */,
+				10E3523E2162C91000E3FD69 /* AELPlanet.m in Sources */,
 				1036C4E02162BD4B005F4BA2 /* AELPlanetsCollectionViewCell.m in Sources */,
 				1036C4DB2162B952005F4BA2 /* AELPlanetsCollectionViewController.m in Sources */,
 				1036C4C52162B7D5005F4BA2 /* AppDelegate.m in Sources */,
+				10E352422162D34B00E3FD69 /* AELPlanetController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "AELPlanetController.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface AELPlanetsCollectionViewController : UICollectionViewController
 
+@property AELPlanetController *planetController;
+@property NSArray *planets;
 @end
 
 NS_ASSUME_NONNULL_END
