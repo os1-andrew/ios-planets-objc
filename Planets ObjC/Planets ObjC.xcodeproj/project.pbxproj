@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1036C4C52162B7D5005F4BA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1036C4C42162B7D5005F4BA2 /* AppDelegate.m */; };
+		1036C4CB2162B7D5005F4BA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1036C4C92162B7D5005F4BA2 /* Main.storyboard */; };
+		1036C4CD2162B7D6005F4BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1036C4CC2162B7D6005F4BA2 /* Assets.xcassets */; };
+		1036C4D02162B7D6005F4BA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1036C4CE2162B7D6005F4BA2 /* LaunchScreen.storyboard */; };
+		1036C4D32162B7D6005F4BA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1036C4D22162B7D6005F4BA2 /* main.m */; };
+		1036C4DB2162B952005F4BA2 /* AELPlanetsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1036C4DA2162B952005F4BA2 /* AELPlanetsCollectionViewController.m */; };
+		1036C4E02162BD4B005F4BA2 /* AELPlanetsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1036C4DF2162BD4B005F4BA2 /* AELPlanetsCollectionViewCell.m */; };
+		10E3523B2162BF3500E3FD69 /* AELSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E3523A2162BF3500E3FD69 /* AELSettingsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1036C4C02162B7D5005F4BA2 /* Planets ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Planets ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1036C4C32162B7D5005F4BA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1036C4C42162B7D5005F4BA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1036C4CA2162B7D5005F4BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1036C4CC2162B7D6005F4BA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1036C4CF2162B7D6005F4BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1036C4D12162B7D6005F4BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1036C4D22162B7D6005F4BA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1036C4D92162B952005F4BA2 /* AELPlanetsCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AELPlanetsCollectionViewController.h; sourceTree = "<group>"; };
+		1036C4DA2162B952005F4BA2 /* AELPlanetsCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AELPlanetsCollectionViewController.m; sourceTree = "<group>"; };
+		1036C4DE2162BD4B005F4BA2 /* AELPlanetsCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AELPlanetsCollectionViewCell.h; sourceTree = "<group>"; };
+		1036C4DF2162BD4B005F4BA2 /* AELPlanetsCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AELPlanetsCollectionViewCell.m; sourceTree = "<group>"; };
+		10E352392162BF3500E3FD69 /* AELSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AELSettingsViewController.h; sourceTree = "<group>"; };
+		10E3523A2162BF3500E3FD69 /* AELSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AELSettingsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1036C4BD2162B7D5005F4BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1036C4B72162B7D5005F4BA2 = {
+			isa = PBXGroup;
+			children = (
+				1036C4C22162B7D5005F4BA2 /* Planets ObjC */,
+				1036C4C12162B7D5005F4BA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1036C4C12162B7D5005F4BA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1036C4C02162B7D5005F4BA2 /* Planets ObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1036C4C22162B7D5005F4BA2 /* Planets ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				1036C4C32162B7D5005F4BA2 /* AppDelegate.h */,
+				1036C4C42162B7D5005F4BA2 /* AppDelegate.m */,
+				1036C4C92162B7D5005F4BA2 /* Main.storyboard */,
+				1036C4DC2162BCD7005F4BA2 /* View and ViewControllers */,
+				1036C4DD2162BCE6005F4BA2 /* Resources */,
+			);
+			path = "Planets ObjC";
+			sourceTree = "<group>";
+		};
+		1036C4DC2162BCD7005F4BA2 /* View and ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1036C4D92162B952005F4BA2 /* AELPlanetsCollectionViewController.h */,
+				1036C4DA2162B952005F4BA2 /* AELPlanetsCollectionViewController.m */,
+				1036C4DE2162BD4B005F4BA2 /* AELPlanetsCollectionViewCell.h */,
+				1036C4DF2162BD4B005F4BA2 /* AELPlanetsCollectionViewCell.m */,
+				10E352392162BF3500E3FD69 /* AELSettingsViewController.h */,
+				10E3523A2162BF3500E3FD69 /* AELSettingsViewController.m */,
+			);
+			path = "View and ViewControllers";
+			sourceTree = "<group>";
+		};
+		1036C4DD2162BCE6005F4BA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1036C4CC2162B7D6005F4BA2 /* Assets.xcassets */,
+				1036C4CE2162B7D6005F4BA2 /* LaunchScreen.storyboard */,
+				1036C4D12162B7D6005F4BA2 /* Info.plist */,
+				1036C4D22162B7D6005F4BA2 /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1036C4BF2162B7D5005F4BA2 /* Planets ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1036C4D62162B7D6005F4BA2 /* Build configuration list for PBXNativeTarget "Planets ObjC" */;
+			buildPhases = (
+				1036C4BC2162B7D5005F4BA2 /* Sources */,
+				1036C4BD2162B7D5005F4BA2 /* Frameworks */,
+				1036C4BE2162B7D5005F4BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Planets ObjC";
+			productName = "Planets ObjC";
+			productReference = 1036C4C02162B7D5005F4BA2 /* Planets ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1036C4B82162B7D5005F4BA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AEL;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Andrew Liao";
+				TargetAttributes = {
+					1036C4BF2162B7D5005F4BA2 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 1036C4BB2162B7D5005F4BA2 /* Build configuration list for PBXProject "Planets ObjC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1036C4B72162B7D5005F4BA2;
+			productRefGroup = 1036C4C12162B7D5005F4BA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1036C4BF2162B7D5005F4BA2 /* Planets ObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1036C4BE2162B7D5005F4BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1036C4D02162B7D6005F4BA2 /* LaunchScreen.storyboard in Resources */,
+				1036C4CD2162B7D6005F4BA2 /* Assets.xcassets in Resources */,
+				1036C4CB2162B7D5005F4BA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1036C4BC2162B7D5005F4BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E3523B2162BF3500E3FD69 /* AELSettingsViewController.m in Sources */,
+				1036C4D32162B7D6005F4BA2 /* main.m in Sources */,
+				1036C4E02162BD4B005F4BA2 /* AELPlanetsCollectionViewCell.m in Sources */,
+				1036C4DB2162B952005F4BA2 /* AELPlanetsCollectionViewController.m in Sources */,
+				1036C4C52162B7D5005F4BA2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1036C4C92162B7D5005F4BA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1036C4CA2162B7D5005F4BA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1036C4CE2162B7D6005F4BA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1036C4CF2162B7D6005F4BA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1036C4D42162B7D6005F4BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1036C4D52162B7D6005F4BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1036C4D72162B7D6005F4BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 579Y2HH9JP;
+				INFOPLIST_FILE = "$(SRCROOT)/Planets ObjC/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrew.Planets-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1036C4D82162B7D6005F4BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 579Y2HH9JP;
+				INFOPLIST_FILE = "$(SRCROOT)/Planets ObjC/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrew.Planets-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1036C4BB2162B7D5005F4BA2 /* Build configuration list for PBXProject "Planets ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1036C4D42162B7D6005F4BA2 /* Debug */,
+				1036C4D52162B7D6005F4BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1036C4D62162B7D6005F4BA2 /* Build configuration list for PBXNativeTarget "Planets ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1036C4D72162B7D6005F4BA2 /* Debug */,
+				1036C4D82162B7D6005F4BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1036C4B82162B7D5005F4BA2 /* Project object */;
+}
