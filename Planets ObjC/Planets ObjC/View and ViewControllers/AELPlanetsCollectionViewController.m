@@ -15,6 +15,18 @@
 @end
 
 @implementation AELPlanetsCollectionViewController
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:true];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    BOOL showPluto = [defaults objectForKey:@"PlutoSettings"];
+    
+    if (showPluto) {
+        NSLog(@"%@", showPluto);
+    } else {
+        NSLog(@"%@", showPluto);
+    }
+}
+
 
 - (instancetype)initWithCoder:(NSCoder *)coder
 {

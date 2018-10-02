@@ -14,9 +14,15 @@
 
 @implementation AELSettingsViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    BOOL isOn = [defaults objectForKey:@"PlutoSettings"];
+    if (isOn){
+        [[self plutoSwitch] setOn:false];
+    } else {
+        [[self plutoSwitch] setOn:true];
+    }
 }
 
 /*
@@ -30,5 +36,11 @@
 */
 
 - (IBAction)saveSettings:(id)sender {
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    [defaults setBool:[[self plutoSwitch] isOn] forKey:@"PlutoSettings"];
+
+    [ self dismissViewControllerAnimated:true completion:nil];
 }
 @end
