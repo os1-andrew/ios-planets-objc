@@ -17,11 +17,11 @@
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    BOOL isOn = [defaults objectForKey:@"PlutoSettings"];
+    BOOL isOn = [defaults boolForKey:@"PlutoSettings"];
     if (isOn){
-        [[self plutoSwitch] setOn:false];
+        [[self plutoSwitch] setOn:YES];
     } else {
-        [[self plutoSwitch] setOn:true];
+        [[self plutoSwitch] setOn:NO];
     }
 }
 

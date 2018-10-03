@@ -17,23 +17,19 @@
 @implementation AELPlanetsCollectionViewController
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:true];
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    BOOL showPluto = [defaults objectForKey:@"PlutoSettings"];
-    
-    if (showPluto) {
-        NSLog(@"%@", showPluto);
-    } else {
-        NSLog(@"%@", showPluto);
-    }
+
+    _planets = [[self planetController] planets];
+    [[self collectionView] reloadData];
 }
 
 
 - (instancetype)initWithCoder:(NSCoder *)coder
 {
     self = [super initWithCoder:coder];
+
     if (self) {
         _planetController = [[AELPlanetController alloc] init];
-        _planets = [[self planetController] planetsWithPluto];
+        _planets = [[self planetController] planets];
     }
     return self;
 }
@@ -41,7 +37,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if(self){
         _planetController = [[AELPlanetController alloc] init];
-        _planets = [[self planetController] planetsWithPluto];
+        _planets = [[self planetController] planets];
 
     }
     return self;

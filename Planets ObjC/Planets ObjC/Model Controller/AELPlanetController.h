@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AELPlanetController : NSObject
 
+-(NSArray *) planets;
+
 @property NSArray *planetsWithPluto;
 @property NSArray *planetsWithoutPluto;
 

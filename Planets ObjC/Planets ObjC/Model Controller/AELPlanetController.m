@@ -23,7 +23,6 @@
                                 [[AELPlanet alloc] initWithName: @"Saturn"],
                                 [[AELPlanet alloc] initWithName: @"Uranus"],
                                 [[AELPlanet alloc] initWithName: @"Neptune"],
-                                [[AELPlanet alloc] initWithName: @"Pluto"],
                                 nil];
         _planetsWithPluto = [[NSArray alloc] initWithObjects:
                              [[AELPlanet alloc] initWithName: @"Mercury"],
@@ -40,4 +39,15 @@
     return self;
 }
 
+-(NSArray *) planets{
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    BOOL showPluto = [defaults boolForKey:@"PlutoSettings"];
+    
+    if(showPluto){
+        return [self planetsWithPluto];
+    } else {
+        return [self planetsWithoutPluto];
+    }
+    
+}
 @end
